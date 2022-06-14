@@ -19,4 +19,17 @@ User.init(
           allowNull: false,
           primaryKey: true,
           autoIncrement: true
+        }, 
+        // define a username column
+        username: {
+          type: DataTypes.STRING,
+          allowNull: false
+        },
+        twitter: {
+            type: DataTypes.STRING,
+            allowNull: true
+        },
+        github: {
+            type: DataTypes.STRING,
+            allowNull: true
         },
