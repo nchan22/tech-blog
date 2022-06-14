@@ -1,4 +1,24 @@
 {
+  "name": "mvc-tech-blog",
+  "version": "1.0.0",
+  "description": "Tech-Key Thoughts: a tech blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchan22/tech-blog"
+  },
+  "author": "Nathaniel Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchan22/tech-blog/issues"
+  },
+  "homepage": "https://github.com/nchan22/tech-blog",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "bulma": "^0.9.4",
@@ -11,29 +31,8 @@
     "nodemon": "^2.0.16",
     "sequelize": "^6.20.1"
   },
-  "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
-  },
-  "name": "tech-blog",
-  "description": "",
-  "version": "1.0.0",
-  "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nchan22/tech-blog.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nchan22/tech-blog/issues"
-  },
-  "homepage": "https://github.com/nchan22/tech-blog#readme",
   "devDependencies": {
     "@creativebulma/bulma-divider": "^1.1.0",
-    "jest": "^28.1.1"
+    "jest": "^26.0.1"
   }
 }
