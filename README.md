@@ -1,4 +1,4 @@
-## MVC Tech Blog
+## Tech-Key Thoughts: A Tech Blog
 
 ### Purpose
 To create a blog style webpage that allows users to signup for an account, login, create a post, edit a post and leave a comment.
