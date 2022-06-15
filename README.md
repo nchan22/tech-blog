@@ -6,7 +6,7 @@ _A mysql database and CMS-style Blog built using Model View Controller (MVC) par
 
 ### Application Deployment
 
-To be added soon
+[Tech-Key Thoughts](https://tech-blog-techkey-thoughts.herokuapp.com)
 
 ### Application Screenshot
 
