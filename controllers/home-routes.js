@@ -95,4 +95,4 @@ router.get("/post/:id", (req, res) => {
     });
 });
 
-module.exports = controller;
+module.exports = router;

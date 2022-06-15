@@ -110,4 +110,4 @@ router.get("/create/", withAuth, (req, res) => {
     });
 });
 
-module.exports = controller;
+module.exports = router;

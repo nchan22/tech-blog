@@ -47,4 +47,4 @@ router.delete("/:id", withAuth, (req, res) => {
     });
 });
 
-module.exports = controller;
+module.exports = router;
